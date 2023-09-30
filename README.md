@@ -4,31 +4,23 @@ Commande dans la console pour executer le code:
 
 '''
 
-python main.py --solver (backtracking ou brute\_force) grille/(evilsudoku.txt
-
-/sudoku4.txt
-
-/sudoku3.txt
-
-/sudoku2.txt
-
-/sudoku.txt)
+python main.py --solver (**backtracking** ou **brute_force**) grille/(sudoku.txt==)
 
 '''
 
 \# Analyse de la complexité des algorithmes de type brute force et backtracking
 
-\# Grid                    Brute Force     Backtracking
+\# Grid                    Brute Force     Backtracking  
 
-grille/sudoku.txt       0.0000          0.0000
+grille/sudoku.txt          0.0000          0.0000
 
-grille/sudoku2.txt      0.0158          0.0158
+grille/sudoku2.txt         0.0158          0.0158
 
-grille/sudoku3.txt      0.0000          0.0000
+grille/sudoku3.txt         0.0000          0.0000
 
-grille/sudoku4.txt      0.0621          0.0625
+grille/sudoku4.txt         0.0621          0.0625
 
-grille/evilsudoku.txt   0.0314          0.0310
+grille/evilsudoku.txt      0.0314          0.0310
 
 Voici quelques conclusions que l'on peut tirer à partir de ces résultats :
 
